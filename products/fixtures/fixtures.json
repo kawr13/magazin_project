@@ -1,0 +1,106 @@
+[
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Асуссс Нотебукс",
+    "description": "чето вроде и тянет например 2 мультики",
+    "price": "19000.00",
+    "quantity": 2,
+    "category": 1,
+    "creat_at": "2023-09-28T21:31:14.834Z",
+    "image": "products/product01_zSFUM8h.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Ачер наушники",
+    "description": "Наушники как наушники на фото кстати картинка от других",
+    "price": "500.00",
+    "quantity": 10,
+    "category": 2,
+    "creat_at": "2023-09-28T21:32:00.014Z",
+    "image": "products/product02_hosc0ci.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Асер Нуот",
+    "description": "Довольно не довольно игровой ноут",
+    "price": "500000.00",
+    "quantity": 5,
+    "category": 1,
+    "creat_at": "2023-09-28T21:32:37.912Z",
+    "image": "products/product03_kzwJyJt.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "сони вегас про +",
+    "description": "типо последняя модель от не известного бренда с откушенной сливой",
+    "price": "100000.00",
+    "quantity": 50,
+    "category": 3,
+    "creat_at": "2023-09-28T21:33:25.874Z",
+    "image": "products/product04_rzuKtxj.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Сиаоми ЕарпОдс",
+    "description": "Отличный наушник бери братт",
+    "price": "2000.00",
+    "quantity": 60,
+    "category": 2,
+    "creat_at": "2023-09-28T21:34:11.714Z",
+    "image": "products/product05_4cFR1o8.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "самсунг с 90000",
+    "description": "Игровой ноут от комппании Самсунг тянет все игры и не только",
+    "price": "225000.00",
+    "quantity": 2,
+    "category": 1,
+    "creat_at": "2023-09-28T21:34:56.275Z",
+    "image": "products/product06_mlGEvCa.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Самсунг с 1",
+    "description": "Отличная труба для молодежи",
+    "price": "99999.00",
+    "quantity": 20,
+    "category": 4,
+    "creat_at": "2023-09-28T21:35:38.377Z",
+    "image": "products/product07_ELwftqo.png"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Камер с 0.000000001 мп",
+    "description": "Моя личная отрываю от души",
+    "price": "1000.00",
+    "quantity": 1,
+    "category": 5,
+    "creat_at": "2023-09-28T21:36:15.031Z",
+    "image": "products/product09_TRKUmLJ.png"
+  }
+}
+]

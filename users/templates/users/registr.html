@@ -1,0 +1,60 @@
+{% extends 'products/base.html' %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h2>Register</h2>
+      <form action="{% url 'users:register' %}" method="post">
+        {% csrf_token %}
+        <div class="form-row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputUsername">Username</label>
+                        {{ form.username }}
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputUsername">Имя</label>
+                            {{ form.first_name }}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputUsername">Фамилия</label>
+                            {{ form.last_name }}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputEmailAddress">Email</label>
+                            {{ form.email }}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputPhoneNumber">Номер телефона</label>
+                            {{ form.phone_number }}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputPassword">Пароль</label>
+                            {{ form.password1 }}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="inputConfirmPassword">Подтвердите пароль</label>
+                            {{ form.password2 }}
+                    </div>
+                </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

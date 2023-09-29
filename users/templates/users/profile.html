@@ -1,0 +1,31 @@
+{% extends 'products/base.html' %}
+
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>User Profile</h2>
+      <p>Name: {{ user.first_name }}</p>
+      <p>Last Name: {{ user.last_name }}</p>
+      <p>Email: {{ user.email }}</p>
+      <p>Nickname: {{ user.username }}</p>
+      <a href="{% url 'users:logout' %}" class="btn btn-primary">Выход</a>
+    </div>
+
+    <!-- Добавляем блок для вывода заказов справа -->
+    <div class="col-md-6">
+      <h2>Your Orders</h2>
+      <ul>
+        {% for order in orders %}
+          <li>
+              <p>{{ order.products.name }} -- {{ order.sum }} руб. -- {{ order.quantity }} -- {{ order.create_at }}items</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+

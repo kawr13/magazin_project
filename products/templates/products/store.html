@@ -1,0 +1,131 @@
+{% extends "products/base.html" %}
+
+{% block content %}
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- ASIDE -->
+					<div id="aside" class="col-md-3">
+						<!-- aside Widget -->
+						<div class="aside">
+							<h3 class="aside-title">Categories</h3>
+                            {% for category in categories %}
+                                <div class="input-point">
+                                    <input type="point" id="{{ category.id }}" name="category_{{ category.id }}" style="display: none;">
+                                    <label for="{{ category.id }}">
+                                        <span></span>
+                                        <a href="{% url 'products:categories' category_id=category.id|urlencode %}">
+                                            {{ category.name }}
+                                            <small>({{ category.product_set.count }})</small>
+                                        </a>
+                                    </label>
+                                </div>
+                            {% endfor %}
+						</div>
+						<!-- /aside Widget -->
+
+
+						<!-- aside Widget -->
+					</div>
+
+					<!-- STORE -->
+					<div id="store" class="col-md-9">
+						<!-- store top filter -->
+						<div class="store-filter clearfix">
+							<div class="store-sort">
+								<label>
+									Sort By:
+									<select class="input-select">
+										<option value="0">Popular</option>
+										<option value="1">Position</option>
+									</select>
+								</label>
+
+								<label>
+									Show:
+									<select class="input-select">
+										<option value="0">20</option>
+										<option value="1">50</option>
+									</select>
+								</label>
+							</div>
+							<ul class="store-grid">
+								<li class="active"><i class="fa fa-th"></i></li>
+								<li><a href="#"><i class="fa fa-th-list"></i></a></li>
+							</ul>
+						</div>
+
+
+						<!-- store products -->
+						<div class="row">
+							<!-- product -->
+                            {% for product in object_list %}
+							<div class="col-md-4 col-xs-6">
+								<div class="product">
+									<div class="product-img">
+										<img src="{{ product.image.url }}" alt="">
+										<div class="product-label">
+											<span class="sale">-30%</span>
+											<span class="new">{{ product.category }}</span>
+										</div>
+									</div>
+									<div class="product-body">
+										<p class="product-category">{% if product.category %}{{ product.category }}{% else %}Uncategorized{% endif %}</p>
+										<h3 class="product-name"><a href="#">{{ product.name }}</a></h3>
+										<h4 class="product-price">{{ product.price }} .руб</h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<div class="product-btns">
+											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
+											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
+										</div>
+									</div>
+                                {%  if user.is_authenticated %}
+                                    <div class="card-footer text-center">
+										<a href="{%  url 'products:basket_add' product.id %}" class="btn-outline-success">В корзину</a>
+									</div>
+                                {% endif %}
+								</div>
+							</div>
+                            {% endfor %}
+							<!-- /product -->
+						</div>
+						<!-- /store products -->
+
+						<!-- store bottom filter -->
+						<div class="store-filter clearfix">
+							<span class="store-qty">Showing 20-100 products</span>
+                        {%  if is_paginated %}
+							<ul class="store-pagination">
+								<li class="{% if not object_list.has_previous %} disabled {% endif %}">
+                                    <a class="page-link" href="{% if object_list.has_previous %}{% url 'products:paginator' object_list.previous_page_number %}{% else %}{% endif %}"><</a>
+                                </li>
+                                {%  for page in paginator.page_range %}
+                                    <li><a href="{% url 'products:paginator' page %}">{{ page }}</a></li>
+                                {% endfor %}
+                                <li class="{% if not object_list.has_next %} disabled {% else %} active {% endif %}">
+                                    <a class="page-link" href="{% if object_list.has_next %}{% url 'products:paginator' object_list.next_page_number %}{% else %}{% endif %}"> > </a>
+                                </li>
+							</ul>
+                        {% endif %}
+						</div>
+						<!-- /store bottom filter -->
+					</div>
+					<!-- /STORE -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+{% endblock %}
