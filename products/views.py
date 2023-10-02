@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponseRedirect
+from django.shortcuts import render, HttpResponseRedirect, reverse
 from django.views.generic.base import TemplateView
 from common.views import CommonMixim
 from django.core.paginator import Paginator
@@ -6,7 +6,7 @@ from products.models import Product, Category, Orders
 from django.views.generic.list import ListView
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
-
+from .forms import ProductsForm
 
 
 class IndexView(CommonMixim, TemplateView):
@@ -59,3 +59,33 @@ def basket_remove(request, basket_id):
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 
 
+def products_detailed(request, product_id):
+    product = Product.objects.get(id=product_id)
+    return render(request, 'products/product.html', {'product': product})
+
+
+def product_edit(request):
+    product = Product.objects.all()
+    context = {
+        'title': 'Редактирование товара',
+        'products': product
+    }
+    return render(request, 'products/edit.html', context=context)
+
+
+def product_create(request):
+    if request.method == 'POST':
+        form = ProductsForm(files=request.FILES, data=request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect(reverse('products:edit'))
+    else:
+        form = ProductsForm()
+
+    product = Product.objects.all()
+    context = {
+        'title': 'Создание товара',
+        'form': form,
+        'products': product,
+    }
+    return render(request, 'products/edit.html', context=context)

@@ -49,7 +49,9 @@
 						<li><a href="#"><i class="fa fa-map-marker"></i> 1734 Stonecoal Road</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
+                        {% if user.is_superuser %}
+						    <li><a href="{% url 'products:edit' %}"><i class="fa fa-dollar"></i> Редактирование товара</a></li>
+                        {% endif %}
                         {% if user.is_authenticated %}
                             {% if user.is_superuser %}
                                 <li><a href="{% url 'admin:index' %}"><i class="fa fa-user-o"></i> My Account</a></li>
@@ -99,7 +101,7 @@
 						<div class="col-md-3 clearfix">
 							<div class="header-ctn">
                                 <!-- Cart -->
-                            {%  if not title == 'Профиль' and not title == 'Stores' %}
+                            {%  if not title == 'Профиль' and not title == 'Stores' and title != 'Редактирование товара' %}
                             {% if user.is_authenticated %}
 								<div class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">

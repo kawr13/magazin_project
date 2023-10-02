@@ -9194,3 +9194,846 @@ WARNING 2023-09-29 05:09:28,912 basehttp 16196 4300 "GET /img/shop03.png HTTP/1.
 WARNING 2023-09-29 05:09:28,912 basehttp 16196 15876 "GET /img/shop01.png HTTP/1.1" 404 2583
 WARNING 2023-09-29 05:09:28,913 log 16196 5056 Not Found: /img/shop02.png
 WARNING 2023-09-29 05:09:28,915 basehttp 16196 5056 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-09-29 05:17:28,939 basehttp 16196 14628 "GET / HTTP/1.1" 200 11290
+WARNING 2023-09-29 05:17:28,985 log 16196 7860 Not Found: /img/shop03.png
+WARNING 2023-09-29 05:17:28,986 log 16196 14628 Not Found: /img/shop01.png
+WARNING 2023-09-29 05:17:28,987 log 16196 15380 Not Found: /img/shop02.png
+WARNING 2023-09-29 05:17:28,988 basehttp 16196 7860 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-09-29 05:17:28,988 basehttp 16196 14628 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-09-29 05:17:28,988 basehttp 16196 15380 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-09-29 05:17:30,337 basehttp 16196 15380 "GET /users/profile/ HTTP/1.1" 200 9124
+INFO 2023-09-29 05:17:34,945 basehttp 16196 15380 "GET /products/ HTTP/1.1" 200 22076
+INFO 2023-09-29 05:17:37,565 basehttp 16196 15380 "GET /products/page/2/ HTTP/1.1" 200 22085
+INFO 2023-09-29 05:17:37,591 basehttp 16196 14628 "GET /media/products/product05_4cFR1o8.png HTTP/1.1" 304 0
+INFO 2023-09-29 05:17:37,592 basehttp 16196 15380 "GET /media/products/product04_rzuKtxj.png HTTP/1.1" 304 0
+INFO 2023-09-29 05:17:37,596 basehttp 16196 15380 "GET /media/products/product06_mlGEvCa.png HTTP/1.1" 304 0
+INFO 2023-09-29 05:17:38,853 basehttp 16196 15380 "GET /products/page/3/ HTTP/1.1" 200 20520
+INFO 2023-09-29 05:17:38,873 basehttp 16196 15380 "GET /media/products/product07_ELwftqo.png HTTP/1.1" 304 0
+INFO 2023-09-29 05:17:38,876 basehttp 16196 14628 "GET /media/products/product09_TRKUmLJ.png HTTP/1.1" 304 0
+INFO 2023-09-29 05:17:40,550 basehttp 16196 14628 "GET /products/page/1/ HTTP/1.1" 200 22076
+INFO 2023-09-29 05:17:43,345 basehttp 16196 14628 "GET /products/categories/1/ HTTP/1.1" 200 21317
+INFO 2023-09-29 05:17:43,955 basehttp 16196 14628 "GET /products/categories/2/ HTTP/1.1" 200 19773
+INFO 2023-09-29 05:17:44,566 basehttp 16196 14628 "GET /products/categories/3/ HTTP/1.1" 200 18199
+INFO 2023-09-29 05:17:45,115 basehttp 16196 14628 "GET /products/categories/4/ HTTP/1.1" 200 18193
+INFO 2023-09-29 05:17:45,643 basehttp 16196 14628 "GET /products/categories/5/ HTTP/1.1" 200 18207
+INFO 2023-09-29 05:17:47,886 basehttp 16196 14628 "GET /products/ HTTP/1.1" 200 22076
+WARNING 2023-09-29 05:18:13,404 log 16196 14628 Not Found: /img/shop01.png
+WARNING 2023-09-29 05:18:13,404 basehttp 16196 14628 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-09-29 05:18:13,406 log 16196 7860 Not Found: /img/shop02.png
+WARNING 2023-09-29 05:18:13,407 basehttp 16196 7860 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-09-29 05:18:13,408 log 16196 15380 Not Found: /img/shop03.png
+WARNING 2023-09-29 05:18:13,409 basehttp 16196 15380 "GET /img/shop03.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:12:02,397 autoreload 14652 16108 Watching for file changes with StatReloader
+INFO 2023-10-03 01:12:04,855 basehttp 14652 12652 "GET / HTTP/1.1" 200 11226
+WARNING 2023-10-03 01:12:05,034 log 14652 12652 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:12:05,035 log 14652 6576 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:12:05,036 log 14652 3064 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:12:05,036 basehttp 14652 6576 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:12:05,037 basehttp 14652 12652 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:12:05,037 basehttp 14652 3064 "GET /img/shop03.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:12:07,551 basehttp 14652 3064 "GET /products/ HTTP/1.1" 200 17738
+INFO 2023-10-03 01:12:07,586 basehttp 14652 3064 "GET /media/products/product01_zSFUM8h.png HTTP/1.1" 304 0
+INFO 2023-10-03 01:12:07,587 basehttp 14652 6576 "GET /media/products/product03_kzwJyJt.png HTTP/1.1" 304 0
+INFO 2023-10-03 01:12:07,587 basehttp 14652 12652 "GET /media/products/product02_hosc0ci.png HTTP/1.1" 304 0
+INFO 2023-10-03 01:15:19,963 autoreload 15004 9368 Watching for file changes with StatReloader
+ERROR 2023-10-03 01:15:22,724 log 15004 3668 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'product_detail' not found. 'product_detail' is not a valid view function or pattern name.
+ERROR 2023-10-03 01:15:22,730 basehttp 15004 3668 "GET /products/ HTTP/1.1" 500 223739
+INFO 2023-10-03 01:16:38,634 autoreload 12508 8916 Watching for file changes with StatReloader
+INFO 2023-10-03 01:16:42,334 basehttp 12508 16240 "GET / HTTP/1.1" 200 11226
+INFO 2023-10-03 01:16:43,775 basehttp 12508 16240 "GET /products/ HTTP/1.1" 200 17798
+INFO 2023-10-03 01:16:45,850 basehttp 12508 16240 "GET /products/detailed/1/ HTTP/1.1" 200 20473
+WARNING 2023-10-03 01:16:45,897 log 12508 6620 Not Found: /products/detailed/1/img/product06.png
+WARNING 2023-10-03 01:16:45,899 log 12508 13912 Not Found: /products/detailed/1/img/product03.png
+WARNING 2023-10-03 01:16:45,900 log 12508 16240 Not Found: /products/detailed/1/img/product01.png
+WARNING 2023-10-03 01:16:45,901 basehttp 12508 6620 "GET /products/detailed/1/img/product06.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:16:45,902 log 12508 7192 Not Found: /products/detailed/1/img/product08.png
+WARNING 2023-10-03 01:16:45,903 basehttp 12508 13912 "GET /products/detailed/1/img/product03.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:16:45,903 basehttp 12508 16240 "GET /products/detailed/1/img/product01.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:16:45,907 basehttp 12508 7192 "GET /products/detailed/1/img/product08.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:16:45,910 basehttp 12508 15320 "GET /static/css/ajax-loader.gif HTTP/1.1" 404 1816
+INFO 2023-10-03 01:17:01,090 basehttp 12508 7192 "GET /products/ HTTP/1.1" 200 17798
+INFO 2023-10-03 01:17:02,898 basehttp 12508 7192 "GET /products/detailed/2/ HTTP/1.1" 200 20473
+WARNING 2023-10-03 01:17:02,931 log 12508 7192 Not Found: /products/detailed/2/img/product01.png
+WARNING 2023-10-03 01:17:02,933 basehttp 12508 7192 "GET /products/detailed/2/img/product01.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:17:02,935 log 12508 16240 Not Found: /products/detailed/2/img/product03.png
+WARNING 2023-10-03 01:17:02,936 log 12508 13912 Not Found: /products/detailed/2/img/product06.png
+WARNING 2023-10-03 01:17:02,937 log 12508 6620 Not Found: /products/detailed/2/img/product08.png
+WARNING 2023-10-03 01:17:02,937 basehttp 12508 16240 "GET /products/detailed/2/img/product03.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:17:02,937 basehttp 12508 13912 "GET /products/detailed/2/img/product06.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:17:02,937 basehttp 12508 6620 "GET /products/detailed/2/img/product08.png HTTP/1.1" 404 3749
+INFO 2023-10-03 01:17:06,209 basehttp 12508 6620 "GET / HTTP/1.1" 200 11226
+WARNING 2023-10-03 01:17:06,240 log 12508 6620 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:17:06,241 basehttp 12508 6620 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:17:06,243 log 12508 16240 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:17:06,243 basehttp 12508 16240 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:17:06,244 log 12508 13912 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:17:06,245 basehttp 12508 13912 "GET /img/shop03.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:18:22,506 basehttp 12508 13912 "GET /products/ HTTP/1.1" 200 17798
+INFO 2023-10-03 01:18:24,762 basehttp 12508 13912 "GET /products/detailed/2/ HTTP/1.1" 200 20473
+WARNING 2023-10-03 01:18:24,794 log 12508 13912 Not Found: /products/detailed/2/img/product01.png
+WARNING 2023-10-03 01:18:24,796 basehttp 12508 13912 "GET /products/detailed/2/img/product01.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:18:24,800 log 12508 16240 Not Found: /products/detailed/2/img/product03.png
+WARNING 2023-10-03 01:18:24,800 basehttp 12508 16240 "GET /products/detailed/2/img/product03.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:18:24,802 log 12508 6620 Not Found: /products/detailed/2/img/product06.png
+WARNING 2023-10-03 01:18:24,803 log 12508 7192 Not Found: /products/detailed/2/img/product08.png
+WARNING 2023-10-03 01:18:24,803 basehttp 12508 6620 "GET /products/detailed/2/img/product06.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:18:24,803 basehttp 12508 7192 "GET /products/detailed/2/img/product08.png HTTP/1.1" 404 3749
+INFO 2023-10-03 01:19:10,774 autoreload 7036 16212 Watching for file changes with StatReloader
+INFO 2023-10-03 01:19:13,030 basehttp 7036 2228 "GET /products/detailed/2/ HTTP/1.1" 200 20476
+WARNING 2023-10-03 01:19:13,073 log 7036 336 Not Found: /products/detailed/2/img/product08.png
+WARNING 2023-10-03 01:19:13,075 log 7036 10424 Not Found: /products/detailed/2/img/product03.png
+WARNING 2023-10-03 01:19:13,076 log 7036 2228 Not Found: /products/detailed/2/img/product01.png
+WARNING 2023-10-03 01:19:13,077 log 7036 15988 Not Found: /products/detailed/2/img/product06.png
+WARNING 2023-10-03 01:19:13,077 basehttp 7036 336 "GET /products/detailed/2/img/product08.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:19:13,077 basehttp 7036 10424 "GET /products/detailed/2/img/product03.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:19:13,077 basehttp 7036 2228 "GET /products/detailed/2/img/product01.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:19:13,079 basehttp 7036 15988 "GET /products/detailed/2/img/product06.png HTTP/1.1" 404 3749
+INFO 2023-10-03 01:19:47,222 autoreload 13020 15952 Watching for file changes with StatReloader
+ERROR 2023-10-03 01:19:49,113 log 13020 144 Internal Server Error: /products/detailed/2/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\products\views.py", line 64, in products_detailed
+    return render(request, 'products/product.html', {'product': product})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\base.py", line 23, in get_template
+    contents = self.get_contents(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\cached.py", line 26, in get_contents
+    return origin.loader.get_contents(origin)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\filesystem.py", line 23, in get_contents
+    return fp.read()
+           ^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf0 in position 1862: invalid continuation byte
+ERROR 2023-10-03 01:19:49,115 basehttp 13020 144 "GET /products/detailed/2/ HTTP/1.1" 500 141817
+INFO 2023-10-03 01:20:18,353 autoreload 9144 6360 Watching for file changes with StatReloader
+INFO 2023-10-03 01:20:21,173 basehttp 9144 7108 "GET /products/detailed/2/ HTTP/1.1" 200 20479
+WARNING 2023-10-03 01:20:21,216 log 9144 7108 Not Found: /products/detailed/2/img/product01.png
+WARNING 2023-10-03 01:20:21,218 basehttp 9144 7108 "GET /products/detailed/2/img/product01.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:20:21,219 log 9144 10796 Not Found: /products/detailed/2/img/product03.png
+WARNING 2023-10-03 01:20:21,221 log 9144 8032 Not Found: /products/detailed/2/img/product06.png
+WARNING 2023-10-03 01:20:21,222 basehttp 9144 10796 "GET /products/detailed/2/img/product03.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:20:21,222 basehttp 9144 8032 "GET /products/detailed/2/img/product06.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:20:21,225 log 9144 5304 Not Found: /products/detailed/2/img/product08.png
+WARNING 2023-10-03 01:20:21,225 basehttp 9144 5304 "GET /products/detailed/2/img/product08.png HTTP/1.1" 404 3749
+INFO 2023-10-03 01:20:58,458 autoreload 14408 10444 Watching for file changes with StatReloader
+INFO 2023-10-03 01:21:00,356 basehttp 14408 15368 "GET /products/detailed/2/ HTTP/1.1" 200 20342
+WARNING 2023-10-03 01:21:00,400 log 14408 15368 Not Found: /products/detailed/2/img/product01.png
+WARNING 2023-10-03 01:21:00,401 basehttp 14408 15368 "GET /products/detailed/2/img/product01.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:21:00,404 log 14408 8548 Not Found: /products/detailed/2/img/product08.png
+WARNING 2023-10-03 01:21:00,406 log 14408 11468 Not Found: /products/detailed/2/img/product06.png
+WARNING 2023-10-03 01:21:00,406 basehttp 14408 8548 "GET /products/detailed/2/img/product08.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:21:00,408 log 14408 4192 Not Found: /products/detailed/2/img/product03.png
+WARNING 2023-10-03 01:21:00,409 basehttp 14408 11468 "GET /products/detailed/2/img/product06.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:21:00,409 basehttp 14408 4192 "GET /products/detailed/2/img/product03.png HTTP/1.1" 404 3749
+INFO 2023-10-03 01:22:03,191 autoreload 2500 1892 Watching for file changes with StatReloader
+INFO 2023-10-03 01:22:06,197 basehttp 2500 5032 "GET /products/detailed/2/ HTTP/1.1" 200 20360
+WARNING 2023-10-03 01:22:06,246 log 2500 5032 Not Found: /products/detailed/2/img/product01.png
+WARNING 2023-10-03 01:22:06,247 log 2500 8372 Not Found: /products/detailed/2/img/product06.png
+WARNING 2023-10-03 01:22:06,248 basehttp 2500 8372 "GET /products/detailed/2/img/product06.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:22:06,248 basehttp 2500 5032 "GET /products/detailed/2/img/product01.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:22:06,252 log 2500 7832 Not Found: /products/detailed/2/img/product03.png
+WARNING 2023-10-03 01:22:06,253 basehttp 2500 7832 "GET /products/detailed/2/img/product03.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:22:06,255 log 2500 16372 Not Found: /products/detailed/2/img/product08.png
+WARNING 2023-10-03 01:22:06,255 basehttp 2500 16372 "GET /products/detailed/2/img/product08.png HTTP/1.1" 404 3749
+INFO 2023-10-03 01:22:51,073 autoreload 9728 7640 Watching for file changes with StatReloader
+INFO 2023-10-03 01:22:53,070 basehttp 9728 8584 "GET /products/detailed/2/ HTTP/1.1" 200 20414
+WARNING 2023-10-03 01:22:53,117 log 9728 9616 Not Found: /products/detailed/2/img/product06.png
+WARNING 2023-10-03 01:22:53,119 log 9728 8584 Not Found: /products/detailed/2/img/product01.png
+WARNING 2023-10-03 01:22:53,121 log 9728 8652 Not Found: /products/detailed/2/img/product03.png
+WARNING 2023-10-03 01:22:53,121 basehttp 9728 9616 "GET /products/detailed/2/img/product06.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:22:53,123 log 9728 10816 Not Found: /products/detailed/2/img/product08.png
+WARNING 2023-10-03 01:22:53,124 basehttp 9728 8584 "GET /products/detailed/2/img/product01.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:22:53,124 basehttp 9728 8652 "GET /products/detailed/2/img/product03.png HTTP/1.1" 404 3749
+WARNING 2023-10-03 01:22:53,125 basehttp 9728 10816 "GET /products/detailed/2/img/product08.png HTTP/1.1" 404 3749
+INFO 2023-10-03 01:24:11,106 autoreload 10148 7896 Watching for file changes with StatReloader
+INFO 2023-10-03 01:24:13,253 basehttp 10148 5640 "GET /products/detailed/2/ HTTP/1.1" 200 20486
+INFO 2023-10-03 01:24:48,308 basehttp 10148 5640 "GET /products/ HTTP/1.1" 200 17798
+INFO 2023-10-03 01:24:51,447 basehttp 10148 5640 "GET /products/detailed/3/ HTTP/1.1" 200 20441
+INFO 2023-10-03 01:25:41,712 autoreload 8400 16012 Watching for file changes with StatReloader
+INFO 2023-10-03 01:25:46,596 basehttp 8400 11808 "GET /products/detailed/3/ HTTP/1.1" 200 20057
+INFO 2023-10-03 01:26:48,402 basehttp 8400 11808 "GET / HTTP/1.1" 200 11226
+WARNING 2023-10-03 01:26:48,442 log 8400 11808 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:26:48,443 log 8400 7256 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:26:48,443 basehttp 8400 11808 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:26:48,444 basehttp 8400 7256 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:26:48,445 log 8400 14108 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:26:48,446 basehttp 8400 14108 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:27:38,217 autoreload 12916 14884 Watching for file changes with StatReloader
+INFO 2023-10-03 01:27:42,218 basehttp 12916 5304 "GET / HTTP/1.1" 200 11264
+WARNING 2023-10-03 01:27:42,254 log 12916 8492 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:27:42,255 log 12916 5304 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:27:42,257 log 12916 13520 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:27:42,257 basehttp 12916 8492 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:27:42,257 basehttp 12916 13520 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:27:42,257 basehttp 12916 5304 "GET /img/shop01.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:28:05,761 autoreload 7824 13624 Watching for file changes with StatReloader
+INFO 2023-10-03 01:28:08,444 basehttp 7824 16204 "GET / HTTP/1.1" 200 11187
+WARNING 2023-10-03 01:28:08,476 log 7824 16204 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:28:08,479 log 7824 5244 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:28:08,480 log 7824 4040 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:28:08,480 basehttp 7824 16204 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:28:08,481 basehttp 7824 5244 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:28:08,481 basehttp 7824 4040 "GET /img/shop03.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:28:10,123 basehttp 7824 4040 "GET / HTTP/1.1" 200 11187
+WARNING 2023-10-03 01:28:10,151 log 7824 5244 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:28:10,152 log 7824 4040 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:28:10,153 basehttp 7824 5244 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:28:10,153 basehttp 7824 4040 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:28:10,154 log 7824 16204 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:28:10,155 basehttp 7824 16204 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:28:11,440 basehttp 7824 16204 "GET /users/login/ HTTP/1.1" 200 8856
+INFO 2023-10-03 01:28:14,222 basehttp 7824 16204 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2023-10-03 01:28:14,237 basehttp 7824 16204 "GET / HTTP/1.1" 200 11374
+WARNING 2023-10-03 01:28:14,274 log 7824 16204 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:28:14,274 log 7824 4040 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:28:14,275 basehttp 7824 16204 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:28:14,275 basehttp 7824 4040 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:28:14,277 log 7824 5244 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:28:14,278 basehttp 7824 5244 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:28:20,757 basehttp 7824 5244 "GET /products/ HTTP/1.1" 200 20185
+INFO 2023-10-03 01:28:20,776 basehttp 7824 5244 "GET /media/products/product06_mlGEvCa.png HTTP/1.1" 304 0
+INFO 2023-10-03 01:28:23,233 basehttp 7824 5244 "GET /products/detailed/1/ HTTP/1.1" 200 20797
+INFO 2023-10-03 01:28:28,159 basehttp 7824 5244 "GET /products/ HTTP/1.1" 200 20185
+INFO 2023-10-03 01:28:29,479 basehttp 7824 5244 "GET / HTTP/1.1" 200 11374
+WARNING 2023-10-03 01:28:29,512 log 7824 5244 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:28:29,513 basehttp 7824 5244 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:28:29,514 log 7824 16204 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:28:29,515 log 7824 4040 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:28:29,515 basehttp 7824 16204 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:28:29,516 basehttp 7824 4040 "GET /img/shop03.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:32:08,517 autoreload 11404 7296 Watching for file changes with StatReloader
+INFO 2023-10-03 01:32:47,676 autoreload 16356 9988 Watching for file changes with StatReloader
+INFO 2023-10-03 01:32:49,951 basehttp 16356 3020 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 01:32:49,983 log 16356 13908 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:32:49,984 log 16356 3020 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:32:49,986 basehttp 16356 13908 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:32:49,987 basehttp 16356 3020 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:32:49,992 log 16356 15368 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:32:49,993 basehttp 16356 15368 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:32:50,814 basehttp 16356 15368 "GET /products/edit/ HTTP/1.1" 200 8852
+INFO 2023-10-03 01:35:32,792 autoreload 7184 15064 Watching for file changes with StatReloader
+INFO 2023-10-03 01:35:34,900 basehttp 7184 7552 "GET /products/edit/ HTTP/1.1" 200 8227
+INFO 2023-10-03 01:35:36,875 basehttp 7184 7552 "GET /products/ HTTP/1.1" 200 18556
+INFO 2023-10-03 01:35:38,927 basehttp 7184 7552 "GET /products/detailed/1/ HTTP/1.1" 200 20186
+WARNING 2023-10-03 01:35:38,974 basehttp 7184 7552 "GET /static/css/ajax-loader.gif HTTP/1.1" 404 1816
+INFO 2023-10-03 01:35:40,306 basehttp 7184 4528 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 01:35:40,336 log 7184 4528 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:35:40,337 basehttp 7184 4528 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:35:40,339 log 7184 15720 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:35:40,340 basehttp 7184 15720 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:35:40,341 log 7184 11576 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:35:40,342 basehttp 7184 11576 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:35:42,196 basehttp 7184 11576 "GET /products/ HTTP/1.1" 200 18556
+INFO 2023-10-03 01:35:43,709 basehttp 7184 11576 "GET /products/baskets/add/1/ HTTP/1.1" 302 0
+INFO 2023-10-03 01:35:43,723 basehttp 7184 11576 "GET /products/ HTTP/1.1" 200 18556
+INFO 2023-10-03 01:35:46,579 basehttp 7184 11576 "GET /admin/ HTTP/1.1" 200 7703
+INFO 2023-10-03 01:35:46,597 basehttp 7184 11576 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-10-03 01:35:46,602 basehttp 7184 11576 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-10-03 01:35:46,604 basehttp 7184 4528 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-10-03 01:35:46,605 basehttp 7184 15720 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-10-03 01:35:46,607 basehttp 7184 11576 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-10-03 01:35:46,609 basehttp 7184 4528 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-10-03 01:35:46,610 basehttp 7184 7604 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-10-03 01:35:46,619 basehttp 7184 7604 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-10-03 01:35:46,620 basehttp 7184 4528 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-10-03 01:36:05,453 autoreload 8616 13504 Watching for file changes with StatReloader
+INFO 2023-10-03 01:36:09,139 basehttp 8616 12756 "GET /products/ HTTP/1.1" 200 21222
+INFO 2023-10-03 01:36:12,069 basehttp 8616 12756 "GET /products/edit/ HTTP/1.1" 200 8852
+INFO 2023-10-03 01:36:25,028 autoreload 2344 9616 Watching for file changes with StatReloader
+INFO 2023-10-03 01:36:26,929 basehttp 2344 7832 "GET /products/edit/ HTTP/1.1" 200 8852
+INFO 2023-10-03 01:36:28,426 basehttp 2344 7832 "GET /products/edit/ HTTP/1.1" 200 8852
+INFO 2023-10-03 01:36:29,693 basehttp 2344 7832 "GET /products/ HTTP/1.1" 200 21222
+INFO 2023-10-03 01:36:30,752 basehttp 2344 7832 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 01:36:30,795 log 2344 7832 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:36:30,796 log 2344 3388 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:36:30,798 log 2344 5604 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:36:30,799 basehttp 2344 7832 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:36:30,799 basehttp 2344 3388 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:36:30,799 basehttp 2344 5604 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:36:31,694 basehttp 2344 5604 "GET /products/ HTTP/1.1" 200 21222
+INFO 2023-10-03 01:36:32,325 basehttp 2344 5604 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 01:36:32,353 log 2344 5604 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:36:32,358 basehttp 2344 5604 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:36:32,360 log 2344 3388 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:36:32,361 log 2344 7832 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:36:32,361 basehttp 2344 3388 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:36:32,362 basehttp 2344 7832 "GET /img/shop03.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:36:33,313 basehttp 2344 7832 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 01:36:33,342 log 2344 3388 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:36:33,343 log 2344 7832 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:36:33,343 basehttp 2344 3388 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:36:33,344 basehttp 2344 7832 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:36:33,346 log 2344 5604 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:36:33,347 basehttp 2344 5604 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:36:34,540 basehttp 2344 5604 "GET /products/edit/ HTTP/1.1" 200 8852
+INFO 2023-10-03 01:37:05,168 autoreload 13024 1404 Watching for file changes with StatReloader
+INFO 2023-10-03 01:37:07,402 basehttp 13024 7020 "GET /products/edit/ HTTP/1.1" 200 8227
+INFO 2023-10-03 01:37:08,809 basehttp 13024 7020 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 01:37:08,852 log 13024 7020 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:37:08,852 log 13024 15740 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:37:08,853 basehttp 13024 15740 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:37:08,854 log 13024 3520 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:37:08,854 basehttp 13024 7020 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:37:08,855 basehttp 13024 3520 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:37:09,769 basehttp 13024 3520 "GET /products/ HTTP/1.1" 200 18556
+INFO 2023-10-03 01:37:10,564 basehttp 13024 3520 "GET /products/ HTTP/1.1" 200 18556
+INFO 2023-10-03 01:37:10,770 basehttp 13024 3520 "GET /products/ HTTP/1.1" 200 18556
+INFO 2023-10-03 01:37:10,983 basehttp 13024 3520 "GET /products/ HTTP/1.1" 200 18556
+INFO 2023-10-03 01:37:19,649 autoreload 13488 4152 Watching for file changes with StatReloader
+INFO 2023-10-03 01:37:23,544 basehttp 13488 5172 "GET /products/ HTTP/1.1" 200 21222
+INFO 2023-10-03 01:37:24,876 basehttp 13488 5172 "GET /products/ HTTP/1.1" 200 21222
+INFO 2023-10-03 01:37:26,123 basehttp 13488 5172 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 01:37:26,168 log 13488 14836 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:37:26,170 log 13488 5172 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:37:26,171 basehttp 13488 5172 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:37:26,171 basehttp 13488 14836 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:37:26,173 log 13488 11236 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:37:26,173 basehttp 13488 11236 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:37:27,579 basehttp 13488 11236 "GET /products/edit/ HTTP/1.1" 200 8852
+INFO 2023-10-03 01:38:06,579 autoreload 15296 11804 Watching for file changes with StatReloader
+INFO 2023-10-03 01:38:09,313 basehttp 15296 15320 "GET /products/edit/ HTTP/1.1" 200 8268
+INFO 2023-10-03 01:38:10,526 basehttp 15296 15320 "GET /products/ HTTP/1.1" 200 21222
+INFO 2023-10-03 01:38:11,808 basehttp 15296 15320 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 01:38:11,848 log 15296 16060 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:38:11,850 log 15296 5208 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:38:11,851 log 15296 15320 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:38:11,852 basehttp 15296 16060 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:38:11,852 basehttp 15296 5208 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:38:11,853 basehttp 15296 15320 "GET /img/shop01.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:38:13,659 basehttp 15296 15320 "GET /products/edit/ HTTP/1.1" 200 8268
+INFO 2023-10-03 01:38:46,645 autoreload 15296 11804 F:\projects_1\magazin_project\products\views.py changed, reloading.
+INFO 2023-10-03 01:38:47,062 autoreload 15824 10592 Watching for file changes with StatReloader
+INFO 2023-10-03 01:42:03,928 autoreload 15116 14676 Watching for file changes with StatReloader
+ERROR 2023-10-03 01:42:07,861 log 15116 7568 Internal Server Error: /products/edit/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\products\views.py", line 73, in product_edit
+    return render(request, 'products/edit.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\base.py", line 23, in get_template
+    contents = self.get_contents(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\cached.py", line 26, in get_contents
+    return origin.loader.get_contents(origin)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\filesystem.py", line 23, in get_contents
+    return fp.read()
+           ^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd1 in position 150: invalid continuation byte
+ERROR 2023-10-03 01:42:07,863 basehttp 15116 7568 "GET /products/edit/ HTTP/1.1" 500 140501
+INFO 2023-10-03 01:43:46,503 autoreload 15408 12424 Watching for file changes with StatReloader
+ERROR 2023-10-03 01:43:49,409 log 15408 1488 Internal Server Error: /products/edit/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\products\views.py", line 73, in product_edit
+    return render(request, 'products/edit.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'add_product' not found. 'add_product' is not a valid view function or pattern name.
+ERROR 2023-10-03 01:43:49,417 basehttp 15408 1488 "GET /products/edit/ HTTP/1.1" 500 195248
+INFO 2023-10-03 01:44:26,283 autoreload 5032 14752 Watching for file changes with StatReloader
+INFO 2023-10-03 01:44:27,972 basehttp 5032 7184 "GET /products/edit/ HTTP/1.1" 200 13252
+INFO 2023-10-03 01:44:36,442 basehttp 5032 7184 "GET /products/ HTTP/1.1" 200 21222
+INFO 2023-10-03 01:44:37,610 basehttp 5032 7184 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 01:44:37,654 log 5032 2740 Not Found: /img/shop02.png
+WARNING 2023-10-03 01:44:37,655 log 5032 7184 Not Found: /img/shop01.png
+WARNING 2023-10-03 01:44:37,657 log 5032 11576 Not Found: /img/shop03.png
+WARNING 2023-10-03 01:44:37,657 basehttp 5032 7184 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:44:37,657 basehttp 5032 2740 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 01:44:37,659 basehttp 5032 11576 "GET /img/shop03.png HTTP/1.1" 404 2583
+INFO 2023-10-03 01:44:39,642 basehttp 5032 11576 "GET /admin/ HTTP/1.1" 200 7703
+INFO 2023-10-03 01:44:42,746 basehttp 5032 11576 "GET /products/edit/ HTTP/1.1" 200 13252
+INFO 2023-10-03 01:51:23,928 autoreload 11976 5000 Watching for file changes with StatReloader
+INFO 2023-10-03 01:53:36,460 autoreload 11976 5000 F:\projects_1\magazin_project\products\views.py changed, reloading.
+INFO 2023-10-03 01:53:36,878 autoreload 15584 5884 Watching for file changes with StatReloader
+INFO 2023-10-03 01:55:27,782 autoreload 8444 15064 Watching for file changes with StatReloader
+INFO 2023-10-03 01:56:08,243 autoreload 15288 10420 Watching for file changes with StatReloader
+INFO 2023-10-03 01:56:47,374 autoreload 15508 10144 Watching for file changes with StatReloader
+INFO 2023-10-03 01:56:51,542 basehttp 15508 3440 "GET /products/edit/ HTTP/1.1" 200 13252
+INFO 2023-10-03 01:57:01,452 basehttp 15508 3440 "GET /products/edit/ HTTP/1.1" 200 13252
+INFO 2023-10-03 02:00:05,593 autoreload 4040 16220 Watching for file changes with StatReloader
+INFO 2023-10-03 02:00:08,511 basehttp 4040 16224 "GET /products/edit/ HTTP/1.1" 200 13504
+INFO 2023-10-03 02:01:03,910 autoreload 4040 16220 F:\projects_1\magazin_project\products\views.py changed, reloading.
+INFO 2023-10-03 02:01:04,333 autoreload 2356 8108 Watching for file changes with StatReloader
+INFO 2023-10-03 02:04:28,079 autoreload 14596 14748 Watching for file changes with StatReloader
+INFO 2023-10-03 02:04:33,148 basehttp 14596 15876 "GET /products/edit/ HTTP/1.1" 200 13420
+WARNING 2023-10-03 02:04:42,569 log 14596 15876 Not Found: /admin/auth/user/1/change/
+WARNING 2023-10-03 02:04:42,569 basehttp 14596 15876 "GET /admin/auth/user/1/change/ HTTP/1.1" 404 4888
+INFO 2023-10-03 02:04:45,268 basehttp 14596 15876 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 02:04:45,303 log 14596 12048 Not Found: /img/shop03.png
+WARNING 2023-10-03 02:04:45,305 log 14596 15876 Not Found: /img/shop01.png
+WARNING 2023-10-03 02:04:45,306 basehttp 14596 12048 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:04:45,306 basehttp 14596 15876 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:04:45,308 log 14596 16060 Not Found: /img/shop02.png
+WARNING 2023-10-03 02:04:45,308 basehttp 14596 16060 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 02:04:46,802 basehttp 14596 16060 "GET /products/edit/ HTTP/1.1" 200 13420
+INFO 2023-10-03 02:05:59,377 basehttp 14596 16060 "GET /products/edit/ HTTP/1.1" 200 13420
+INFO 2023-10-03 02:05:59,510 basehttp 14596 1624 "GET /static/css/nouislider.min.css HTTP/1.1" 200 3555
+INFO 2023-10-03 02:05:59,528 basehttp 14596 2620 "GET /static/css/font-awesome.min.css HTTP/1.1" 200 31000
+INFO 2023-10-03 02:05:59,540 basehttp 14596 16060 "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2023-10-03 02:05:59,540 basehttp 14596 12048 "GET /static/css/slick-theme.css HTTP/1.1" 200 3145
+INFO 2023-10-03 02:05:59,552 basehttp 14596 15876 "GET /static/css/slick.css HTTP/1.1" 200 1776
+INFO 2023-10-03 02:05:59,554 basehttp 14596 12324 "GET /static/css/style.css HTTP/1.1" 200 39529
+INFO 2023-10-03 02:05:59,570 basehttp 14596 1624 "GET /static/js/jquery.min.js HTTP/1.1" 200 85578
+INFO 2023-10-03 02:05:59,580 basehttp 14596 2620 "GET /static/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2023-10-03 02:05:59,594 basehttp 14596 12048 "GET /static/js/nouislider.min.js HTTP/1.1" 200 21184
+INFO 2023-10-03 02:05:59,614 basehttp 14596 15876 "GET /static/js/jquery.zoom.min.js HTTP/1.1" 200 2607
+INFO 2023-10-03 02:05:59,621 basehttp 14596 2620 "GET /static/img/logo.png HTTP/1.1" 200 2251
+INFO 2023-10-03 02:05:59,627 basehttp 14596 16060 "GET /static/js/slick.min.js HTTP/1.1" 200 42863
+INFO 2023-10-03 02:05:59,642 basehttp 14596 12324 "GET /static/js/main.js HTTP/1.1" 200 3620
+INFO 2023-10-03 02:05:59,682 basehttp 14596 1624 "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+WARNING 2023-10-03 02:05:59,727 log 14596 1624 Not Found: /favicon.ico
+WARNING 2023-10-03 02:05:59,728 basehttp 14596 1624 "GET /favicon.ico HTTP/1.1" 404 2574
+INFO 2023-10-03 02:07:20,992 autoreload 16124 8116 Watching for file changes with StatReloader
+INFO 2023-10-03 02:07:24,367 basehttp 16124 15864 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:07:25,816 basehttp 16124 15864 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:07:27,679 basehttp 16124 15864 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:07:27,779 basehttp 16124 2896 "GET /static/css/slick-theme.css HTTP/1.1" 200 3145
+INFO 2023-10-03 02:07:27,785 basehttp 16124 2896 "GET /static/js/jquery.min.js HTTP/1.1" 200 85578
+INFO 2023-10-03 02:07:27,789 basehttp 16124 2896 "GET /static/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2023-10-03 02:07:27,800 basehttp 16124 2896 "GET /static/js/slick.min.js HTTP/1.1" 200 42863
+INFO 2023-10-03 02:07:27,804 basehttp 16124 2896 "GET /static/js/nouislider.min.js HTTP/1.1" 200 21184
+INFO 2023-10-03 02:07:27,806 basehttp 16124 2896 "GET /static/js/jquery.zoom.min.js HTTP/1.1" 200 2607
+INFO 2023-10-03 02:07:27,809 basehttp 16124 2896 "GET /static/js/main.js HTTP/1.1" 200 3620
+INFO 2023-10-03 02:07:27,809 basehttp 16124 2896 "GET /static/img/logo.png HTTP/1.1" 200 2251
+INFO 2023-10-03 02:07:27,809 basehttp 16124 15864 "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2023-10-03 02:07:27,817 basehttp 16124 14108 "GET /static/css/slick.css HTTP/1.1" 200 1776
+INFO 2023-10-03 02:07:27,817 basehttp 16124 2992 "GET /static/css/font-awesome.min.css HTTP/1.1" 200 31000
+INFO 2023-10-03 02:07:27,823 basehttp 16124 15852 "GET /static/css/nouislider.min.css HTTP/1.1" 200 3555
+INFO 2023-10-03 02:07:27,823 basehttp 16124 15712 "GET /static/css/style.css HTTP/1.1" 200 39529
+INFO 2023-10-03 02:07:27,838 basehttp 16124 15712 "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+WARNING 2023-10-03 02:07:27,980 log 16124 15712 Not Found: /favicon.ico
+WARNING 2023-10-03 02:07:27,982 basehttp 16124 15712 "GET /favicon.ico HTTP/1.1" 404 2574
+INFO 2023-10-03 02:08:55,830 autoreload 3796 15484 Watching for file changes with StatReloader
+INFO 2023-10-03 02:09:00,463 basehttp 3796 4048 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:09:02,175 basehttp 3796 4048 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:09:03,584 basehttp 3796 4048 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:09:08,492 autoreload 2900 6996 Watching for file changes with StatReloader
+INFO 2023-10-03 02:09:13,202 basehttp 2900 7552 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:09:14,766 basehttp 2900 7552 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:09:14,891 basehttp 2900 7208 "GET /static/css/nouislider.min.css HTTP/1.1" 200 3555
+INFO 2023-10-03 02:09:14,908 basehttp 2900 7208 "GET /static/js/jquery.min.js HTTP/1.1" 200 85578
+INFO 2023-10-03 02:09:14,915 basehttp 2900 7552 "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2023-10-03 02:09:14,918 basehttp 2900 12020 "GET /static/css/font-awesome.min.css HTTP/1.1" 200 31000
+INFO 2023-10-03 02:09:14,923 basehttp 2900 7208 "GET /static/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2023-10-03 02:09:14,930 basehttp 2900 12020 "GET /static/js/nouislider.min.js HTTP/1.1" 200 21184
+INFO 2023-10-03 02:09:14,930 basehttp 2900 7552 "GET /static/js/slick.min.js HTTP/1.1" 200 42863
+INFO 2023-10-03 02:09:14,933 basehttp 2900 7208 "GET /static/js/jquery.zoom.min.js HTTP/1.1" 200 2607
+INFO 2023-10-03 02:09:14,939 basehttp 2900 12020 "GET /static/img/logo.png HTTP/1.1" 200 2251
+INFO 2023-10-03 02:09:14,939 basehttp 2900 7552 "GET /static/js/main.js HTTP/1.1" 200 3620
+INFO 2023-10-03 02:09:14,945 basehttp 2900 8020 "GET /static/css/style.css HTTP/1.1" 200 39529
+INFO 2023-10-03 02:09:14,955 basehttp 2900 15648 "GET /static/css/slick-theme.css HTTP/1.1" 200 3145
+INFO 2023-10-03 02:09:14,958 basehttp 2900 8876 "GET /static/css/slick.css HTTP/1.1" 200 1776
+INFO 2023-10-03 02:09:14,967 basehttp 2900 8876 "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+WARNING 2023-10-03 02:09:15,111 log 2900 8876 Not Found: /favicon.ico
+WARNING 2023-10-03 02:09:15,112 basehttp 2900 8876 "GET /favicon.ico HTTP/1.1" 404 2574
+INFO 2023-10-03 02:09:16,484 basehttp 2900 8876 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 02:09:16,512 log 2900 8876 Not Found: /img/shop01.png
+WARNING 2023-10-03 02:09:16,513 basehttp 2900 8876 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:09:16,516 log 2900 15648 Not Found: /img/shop03.png
+WARNING 2023-10-03 02:09:16,517 basehttp 2900 15648 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:09:16,518 log 2900 8020 Not Found: /img/shop02.png
+WARNING 2023-10-03 02:09:16,518 basehttp 2900 8020 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 02:09:17,599 basehttp 2900 8020 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:10:24,871 autoreload 13524 2308 Watching for file changes with StatReloader
+INFO 2023-10-03 02:10:28,514 basehttp 13524 2412 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:10:51,862 autoreload 2728 16288 Watching for file changes with StatReloader
+INFO 2023-10-03 02:10:54,369 basehttp 2728 10144 "GET /products/edit/ HTTP/1.1" 200 13455
+INFO 2023-10-03 02:10:55,775 basehttp 2728 10144 "GET /products/edit/ HTTP/1.1" 200 13455
+INFO 2023-10-03 02:12:12,274 autoreload 4536 8744 Watching for file changes with StatReloader
+INFO 2023-10-03 02:12:16,283 basehttp 4536 9772 "GET /products/edit/ HTTP/1.1" 200 13451
+INFO 2023-10-03 02:12:52,555 autoreload 16044 4352 Watching for file changes with StatReloader
+INFO 2023-10-03 02:12:56,449 basehttp 16044 10496 "GET /products/edit/ HTTP/1.1" 200 13494
+INFO 2023-10-03 02:13:21,100 autoreload 12652 3144 Watching for file changes with StatReloader
+INFO 2023-10-03 02:13:24,891 basehttp 12652 2612 "GET /products/edit/ HTTP/1.1" 200 13550
+INFO 2023-10-03 02:13:26,696 basehttp 12652 2612 "GET /products/edit/ HTTP/1.1" 200 13550
+INFO 2023-10-03 02:15:00,043 autoreload 2496 7256 Watching for file changes with StatReloader
+INFO 2023-10-03 02:15:01,866 basehttp 2496 16228 "GET /products/edit/ HTTP/1.1" 200 13550
+INFO 2023-10-03 02:15:03,166 basehttp 2496 16228 "GET /products/edit/ HTTP/1.1" 200 13550
+INFO 2023-10-03 02:15:04,876 basehttp 2496 16228 "GET /products/edit/ HTTP/1.1" 200 13550
+INFO 2023-10-03 02:15:34,088 autoreload 7976 11804 Watching for file changes with StatReloader
+INFO 2023-10-03 02:15:40,080 basehttp 7976 8436 "GET /products/edit/ HTTP/1.1" 200 13550
+INFO 2023-10-03 02:16:10,506 autoreload 4220 7400 Watching for file changes with StatReloader
+INFO 2023-10-03 02:16:28,557 autoreload 8284 9212 Watching for file changes with StatReloader
+INFO 2023-10-03 02:16:32,351 basehttp 8284 9252 "GET /products/edit/ HTTP/1.1" 200 13549
+INFO 2023-10-03 02:18:09,126 autoreload 15976 15544 Watching for file changes with StatReloader
+INFO 2023-10-03 02:18:11,656 basehttp 15976 3280 "GET /products/edit/ HTTP/1.1" 200 13722
+INFO 2023-10-03 02:18:13,702 basehttp 15976 3280 "GET /products/edit/ HTTP/1.1" 200 13722
+INFO 2023-10-03 02:19:54,781 autoreload 9632 16212 Watching for file changes with StatReloader
+INFO 2023-10-03 02:20:14,700 basehttp 9632 1856 "GET /products/edit/ HTTP/1.1" 200 13570
+INFO 2023-10-03 02:21:02,727 autoreload 5652 15492 Watching for file changes with StatReloader
+INFO 2023-10-03 02:21:06,163 basehttp 5652 15700 "GET /products/edit/ HTTP/1.1" 200 13772
+INFO 2023-10-03 02:22:22,722 autoreload 7176 13464 Watching for file changes with StatReloader
+ERROR 2023-10-03 02:22:25,328 log 7176 10420 Internal Server Error: /products/edit/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'form.as_p'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\products\views.py", line 73, in product_edit
+    return render(request, 'products/edit.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 37: 'form.as_p', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-10-03 02:22:25,337 basehttp 7176 10420 "GET /products/edit/ HTTP/1.1" 500 219016
+INFO 2023-10-03 02:22:37,623 autoreload 13896 15928 Watching for file changes with StatReloader
+INFO 2023-10-03 02:22:40,688 basehttp 13896 9860 "GET /products/edit/ HTTP/1.1" 200 12219
+INFO 2023-10-03 02:22:43,209 basehttp 13896 9860 "GET /products/edit/ HTTP/1.1" 200 12219
+INFO 2023-10-03 02:22:43,939 basehttp 13896 9860 "POST /products/create/ HTTP/1.1" 200 10830
+INFO 2023-10-03 02:23:32,961 autoreload 14796 1644 Watching for file changes with StatReloader
+INFO 2023-10-03 02:23:49,159 autoreload 3552 9188 Watching for file changes with StatReloader
+INFO 2023-10-03 02:23:51,951 basehttp 3552 7344 "POST /products/create/ HTTP/1.1" 200 13661
+INFO 2023-10-03 02:24:34,172 autoreload 2080 7360 Watching for file changes with StatReloader
+INFO 2023-10-03 02:24:42,474 autoreload 2080 7360 F:\projects_1\magazin_project\products\forms.py changed, reloading.
+INFO 2023-10-03 02:24:42,874 autoreload 3068 14768 Watching for file changes with StatReloader
+INFO 2023-10-03 02:24:45,160 autoreload 6608 15928 Watching for file changes with StatReloader
+INFO 2023-10-03 02:24:48,271 basehttp 6608 9308 "POST /products/create/ HTTP/1.1" 200 13700
+INFO 2023-10-03 02:25:08,612 autoreload 16016 1644 Watching for file changes with StatReloader
+INFO 2023-10-03 02:25:11,365 basehttp 16016 4812 "POST /products/create/ HTTP/1.1" 200 13733
+INFO 2023-10-03 02:25:14,779 basehttp 16016 4812 "POST /products/create/ HTTP/1.1" 200 13733
+INFO 2023-10-03 02:25:33,240 autoreload 16220 296 Watching for file changes with StatReloader
+INFO 2023-10-03 02:25:37,615 basehttp 16220 16148 "POST /products/create/ HTTP/1.1" 200 13700
+INFO 2023-10-03 02:25:39,913 basehttp 16220 16148 "POST /products/create/ HTTP/1.1" 200 13700
+INFO 2023-10-03 02:28:01,983 autoreload 16220 296 F:\projects_1\magazin_project\products\forms.py changed, reloading.
+INFO 2023-10-03 02:28:02,443 autoreload 12416 14796 Watching for file changes with StatReloader
+INFO 2023-10-03 02:30:01,468 autoreload 12416 14796 F:\projects_1\magazin_project\products\forms.py changed, reloading.
+INFO 2023-10-03 02:30:01,874 autoreload 11804 10868 Watching for file changes with StatReloader
+INFO 2023-10-03 02:30:22,380 autoreload 11804 10868 F:\projects_1\magazin_project\products\forms.py changed, reloading.
+INFO 2023-10-03 02:30:22,844 autoreload 5252 16184 Watching for file changes with StatReloader
+INFO 2023-10-03 02:30:39,371 autoreload 5252 16184 F:\projects_1\magazin_project\products\forms.py changed, reloading.
+INFO 2023-10-03 02:30:39,836 autoreload 10976 2592 Watching for file changes with StatReloader
+INFO 2023-10-03 02:30:50,319 autoreload 10976 2592 F:\projects_1\magazin_project\products\forms.py changed, reloading.
+INFO 2023-10-03 02:30:50,728 autoreload 7344 1604 Watching for file changes with StatReloader
+INFO 2023-10-03 02:30:53,895 autoreload 7344 1604 F:\projects_1\magazin_project\products\forms.py changed, reloading.
+INFO 2023-10-03 02:30:54,300 autoreload 15604 14904 Watching for file changes with StatReloader
+INFO 2023-10-03 02:31:07,261 autoreload 15820 9980 Watching for file changes with StatReloader
+INFO 2023-10-03 02:31:12,656 basehttp 15820 16260 "POST /products/create/ HTTP/1.1" 200 14085
+ERROR 2023-10-03 02:32:50,582 log 15820 16260 Internal Server Error: /products/create/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\products\views.py", line 80, in product_create
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'ProductsForm' object has no attribute 'save'
+ERROR 2023-10-03 02:32:50,584 basehttp 15820 16260 "POST /products/create/ HTTP/1.1" 500 77671
+INFO 2023-10-03 02:34:38,041 autoreload 9144 9704 Watching for file changes with StatReloader
+INFO 2023-10-03 02:34:43,922 basehttp 9144 3720 "POST /products/create/ HTTP/1.1" 302 0
+INFO 2023-10-03 02:34:43,937 basehttp 9144 3720 "GET /products/edit/ HTTP/1.1" 200 12610
+INFO 2023-10-03 02:34:57,657 basehttp 9144 3720 "POST /products/create/ HTTP/1.1" 200 14476
+INFO 2023-10-03 02:36:31,230 autoreload 7308 10088 Watching for file changes with StatReloader
+INFO 2023-10-03 02:36:39,013 basehttp 7308 8924 "POST /products/create/ HTTP/1.1" 200 14451
+INFO 2023-10-03 02:36:42,280 basehttp 7308 8924 "GET / HTTP/1.1" 200 11187
+WARNING 2023-10-03 02:36:42,316 log 7308 15992 Not Found: /img/shop02.png
+WARNING 2023-10-03 02:36:42,317 log 7308 9988 Not Found: /img/shop03.png
+WARNING 2023-10-03 02:36:42,317 basehttp 7308 15992 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:36:42,318 log 7308 8924 Not Found: /img/shop01.png
+WARNING 2023-10-03 02:36:42,320 basehttp 7308 9988 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:36:42,321 basehttp 7308 8924 "GET /img/shop01.png HTTP/1.1" 404 2583
+INFO 2023-10-03 02:36:43,872 basehttp 7308 8924 "GET /products/ HTTP/1.1" 200 17759
+INFO 2023-10-03 02:36:44,804 basehttp 7308 8924 "GET / HTTP/1.1" 200 11187
+WARNING 2023-10-03 02:36:44,834 log 7308 8924 Not Found: /img/shop01.png
+WARNING 2023-10-03 02:36:44,835 basehttp 7308 8924 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:36:44,836 log 7308 9988 Not Found: /img/shop03.png
+WARNING 2023-10-03 02:36:44,836 basehttp 7308 9988 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:36:44,838 log 7308 15992 Not Found: /img/shop02.png
+WARNING 2023-10-03 02:36:44,838 basehttp 7308 15992 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 02:36:46,468 basehttp 7308 15992 "GET /users/login/ HTTP/1.1" 200 8856
+INFO 2023-10-03 02:36:51,345 basehttp 7308 15992 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2023-10-03 02:36:51,355 basehttp 7308 15992 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 02:36:51,391 log 7308 15992 Not Found: /img/shop01.png
+WARNING 2023-10-03 02:36:51,391 basehttp 7308 15992 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:36:51,392 log 7308 9988 Not Found: /img/shop03.png
+WARNING 2023-10-03 02:36:51,393 basehttp 7308 9988 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:36:51,395 log 7308 8924 Not Found: /img/shop02.png
+WARNING 2023-10-03 02:36:51,395 basehttp 7308 8924 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 02:36:53,062 basehttp 7308 8924 "GET /products/edit/ HTTP/1.1" 200 12786
+INFO 2023-10-03 02:36:58,252 basehttp 7308 8924 "POST /products/create/ HTTP/1.1" 200 15219
+INFO 2023-10-03 02:38:43,197 autoreload 15796 9200 Watching for file changes with StatReloader
+INFO 2023-10-03 02:38:48,329 basehttp 15796 4160 "POST /products/create/ HTTP/1.1" 200 15252
+INFO 2023-10-03 02:39:10,418 autoreload 4552 11740 Watching for file changes with StatReloader
+INFO 2023-10-03 02:39:13,694 basehttp 4552 13112 "POST /products/create/ HTTP/1.1" 200 15252
+INFO 2023-10-03 02:40:04,911 autoreload 15596 7640 Watching for file changes with StatReloader
+INFO 2023-10-03 02:40:08,451 basehttp 15596 2972 "POST /products/create/ HTTP/1.1" 200 15351
+INFO 2023-10-03 02:41:00,641 autoreload 2188 13240 Watching for file changes with StatReloader
+INFO 2023-10-03 02:41:03,839 basehttp 2188 13472 "POST /products/create/ HTTP/1.1" 200 15389
+INFO 2023-10-03 02:41:22,302 basehttp 2188 13472 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 02:41:22,342 log 2188 1712 Not Found: /img/shop02.png
+WARNING 2023-10-03 02:41:22,342 log 2188 13472 Not Found: /img/shop01.png
+WARNING 2023-10-03 02:41:22,344 log 2188 5304 Not Found: /img/shop03.png
+WARNING 2023-10-03 02:41:22,345 basehttp 2188 1712 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:41:22,346 basehttp 2188 13472 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:41:22,346 basehttp 2188 5304 "GET /img/shop03.png HTTP/1.1" 404 2583
+INFO 2023-10-03 02:41:23,948 basehttp 2188 5304 "GET /products/edit/ HTTP/1.1" 200 12786
+INFO 2023-10-03 02:41:28,456 basehttp 2188 5304 "GET /admin/ HTTP/1.1" 200 7703
+INFO 2023-10-03 02:41:31,052 basehttp 2188 5304 "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2023-10-03 02:41:31,057 basehttp 2188 5304 "GET / HTTP/1.1" 200 11187
+WARNING 2023-10-03 02:41:31,092 log 2188 5304 Not Found: /img/shop01.png
+WARNING 2023-10-03 02:41:31,094 log 2188 13472 Not Found: /img/shop03.png
+WARNING 2023-10-03 02:41:31,094 basehttp 2188 5304 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:41:31,096 log 2188 1712 Not Found: /img/shop02.png
+WARNING 2023-10-03 02:41:31,096 basehttp 2188 13472 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:41:31,097 basehttp 2188 1712 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-03 02:41:32,193 basehttp 2188 1712 "GET /users/login/ HTTP/1.1" 200 8856
+INFO 2023-10-03 02:41:41,173 basehttp 2188 1712 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2023-10-03 02:41:41,180 basehttp 2188 1712 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-03 02:41:41,214 log 2188 13472 Not Found: /img/shop03.png
+WARNING 2023-10-03 02:41:41,214 basehttp 2188 13472 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:41:41,215 log 2188 1712 Not Found: /img/shop01.png
+WARNING 2023-10-03 02:41:41,217 log 2188 5304 Not Found: /img/shop02.png
+WARNING 2023-10-03 02:41:41,218 basehttp 2188 1712 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-03 02:41:41,218 basehttp 2188 5304 "GET /img/shop02.png HTTP/1.1" 404 2583

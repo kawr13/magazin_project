@@ -15,7 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path, include
-from .views import ProductsListView, basket_add, basket_remove
+from .views import ProductsListView, basket_add, basket_remove, products_detailed, product_edit, product_create
 
 
 app_name = 'products'
@@ -27,6 +27,9 @@ urlpatterns = [
     path('page/<int:page>/', ProductsListView.as_view(), name='paginator'),
     path('baskets/add/<int:product_id>/', basket_add, name='basket_add'),
     path('baskets/remove/<int:basket_id>/', basket_remove, name='basket_remove'),
+    path('detailed/<int:product_id>/', products_detailed, name='detailed'),
+    path('edit/', product_edit, name='edit'),
+    path('create/', product_create, name='create'),
 ]
 
 

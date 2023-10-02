@@ -74,7 +74,7 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">{% if product.category %}{{ product.category }}{% else %}Uncategorized{% endif %}</p>
-										<h3 class="product-name"><a href="#">{{ product.name }}</a></h3>
+										<h3 class="product-name"><a href="{% url 'products:detailed' product.id %}">{{ product.name }}</a></h3>
 										<h4 class="product-price">{{ product.price }} .руб</h4>
 										<div class="product-rating">
 											<i class="fa fa-star"></i>
