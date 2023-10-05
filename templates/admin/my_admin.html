@@ -1,0 +1,15 @@
+{#{% extends "admin/base.html" %}#}
+{##}
+{#{% load admin_interface %}#}
+{##}
+{#{% block extrastyle %}#}
+{#  {% get_admin_interface_theme as theme %}#}
+{#  <link rel="stylesheet" href="{{ theme.bootstrap_css }}">#}
+{#  <link rel="stylesheet" href="{{ theme.main_css }}">#}
+{#{% endblock %}#}
+{##}
+{#{% block extrahead %}#}
+{#  {{ block.super }}#}
+{#  <script src="{{ theme.jquery_js }}"></script>#}
+{#  <script src="{{ theme.bootstrap_js }}"></script>#}
+{#{% endblock %}#}

@@ -11135,3 +11135,667 @@ INFO 2023-10-06 01:55:02,398 basehttp 2260 4808 "GET /admin/products/category/ H
 INFO 2023-10-06 01:55:02,414 basehttp 2260 4808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-10-06 01:55:03,498 basehttp 2260 4808 "GET /admin/products/category/ HTTP/1.1" 200 10214
 INFO 2023-10-06 01:55:03,518 basehttp 2260 4808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:04:28,124 autoreload 2260 3244 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:04:28,648 autoreload 7480 13672 Watching for file changes with StatReloader
+INFO 2023-10-06 02:05:27,564 autoreload 7480 13672 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:05:28,111 autoreload 1712 9528 Watching for file changes with StatReloader
+INFO 2023-10-06 02:08:45,422 autoreload 1712 9528 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:08:45,759 autoreload 4136 9668 Watching for file changes with StatReloader
+INFO 2023-10-06 02:09:17,366 autoreload 2204 7960 Watching for file changes with StatReloader
+INFO 2023-10-06 02:10:41,552 autoreload 2204 7960 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:10:41,914 autoreload 11244 9416 Watching for file changes with StatReloader
+INFO 2023-10-06 02:10:52,838 autoreload 6028 9888 Watching for file changes with StatReloader
+INFO 2023-10-06 02:12:38,246 autoreload 6028 9888 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:12:38,574 autoreload 13788 7692 Watching for file changes with StatReloader
+INFO 2023-10-06 02:14:14,062 autoreload 12872 4216 Watching for file changes with StatReloader
+INFO 2023-10-06 02:14:45,228 autoreload 9480 8924 Watching for file changes with StatReloader
+INFO 2023-10-06 02:14:55,785 autoreload 2284 8060 Watching for file changes with StatReloader
+WARNING 2023-10-06 02:14:59,119 log 2284 12076 Not Found: /admin/products/category/
+WARNING 2023-10-06 02:14:59,120 basehttp 2284 12076 "GET /admin/products/category/ HTTP/1.1" 404 2616
+INFO 2023-10-06 02:15:15,473 autoreload 2284 8060 F:\projects_1\magazin_project\magazin_project\urls.py changed, reloading.
+INFO 2023-10-06 02:15:15,915 autoreload 1712 1632 Watching for file changes with StatReloader
+INFO 2023-10-06 02:15:18,245 autoreload 3720 2780 Watching for file changes with StatReloader
+INFO 2023-10-06 02:15:20,115 basehttp 3720 5812 "GET /admin/products/category/ HTTP/1.1" 200 10214
+INFO 2023-10-06 02:15:20,145 basehttp 3720 5812 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:15:23,281 basehttp 3720 5812 "GET /admin/products/ HTTP/1.1" 200 5797
+INFO 2023-10-06 02:15:24,665 basehttp 3720 5812 "GET /admin/ HTTP/1.1" 200 6461
+INFO 2023-10-06 02:15:26,060 basehttp 3720 5812 "GET /admin/products/category/ HTTP/1.1" 200 10214
+INFO 2023-10-06 02:15:26,080 basehttp 3720 5812 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:15:48,927 autoreload 7480 12928 Watching for file changes with StatReloader
+INFO 2023-10-06 02:15:52,449 basehttp 7480 7844 "GET /admin/products/category/ HTTP/1.1" 200 10214
+INFO 2023-10-06 02:15:52,469 basehttp 7480 7844 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:16:37,219 autoreload 9860 11368 Watching for file changes with StatReloader
+INFO 2023-10-06 02:16:39,677 basehttp 9860 10464 "GET /admin/products/category/ HTTP/1.1" 200 10214
+INFO 2023-10-06 02:16:39,699 basehttp 9860 10464 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:16:50,683 autoreload 4820 11464 Watching for file changes with StatReloader
+INFO 2023-10-06 02:16:53,330 basehttp 4820 3020 "GET /admin/products/category/ HTTP/1.1" 200 10214
+INFO 2023-10-06 02:16:53,349 basehttp 4820 3020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:17:45,131 autoreload 13700 14288 Watching for file changes with StatReloader
+INFO 2023-10-06 02:17:47,730 basehttp 13700 13620 "GET /admin/products/category/ HTTP/1.1" 200 10214
+INFO 2023-10-06 02:17:47,750 basehttp 13700 13620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:17:49,605 basehttp 13700 13620 "GET /admin/products/category/ HTTP/1.1" 200 10214
+INFO 2023-10-06 02:17:49,625 basehttp 13700 13620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:18:10,633 autoreload 6084 7556 Watching for file changes with StatReloader
+WARNING 2023-10-06 02:18:13,334 log 6084 10324 Not Found: /admin/products/category/
+WARNING 2023-10-06 02:18:13,334 basehttp 6084 10324 "GET /admin/products/category/ HTTP/1.1" 404 2616
+INFO 2023-10-06 02:18:18,959 basehttp 6084 10324 "GET /my_admin/products/category/ HTTP/1.1" 200 10271
+INFO 2023-10-06 02:18:18,990 basehttp 6084 10324 "GET /my_admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:18:20,931 basehttp 6084 10324 "GET /my_admin/products/product/ HTTP/1.1" 200 18186
+INFO 2023-10-06 02:18:20,955 basehttp 6084 10324 "GET /my_admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:18:23,230 basehttp 6084 10324 "GET /my_admin/products/category/ HTTP/1.1" 200 10271
+INFO 2023-10-06 02:18:23,250 basehttp 6084 10324 "GET /my_admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:18:23,774 basehttp 6084 10324 "GET /my_admin/products/ HTTP/1.1" 200 5830
+INFO 2023-10-06 02:18:25,251 basehttp 6084 10324 "GET /my_admin/products/category/ HTTP/1.1" 200 10271
+INFO 2023-10-06 02:18:25,272 basehttp 6084 10324 "GET /my_admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:18:26,381 basehttp 6084 10324 "GET /my_admin/users/users/ HTTP/1.1" 200 9580
+INFO 2023-10-06 02:18:30,695 basehttp 6084 10324 "GET /my_admin/ HTTP/1.1" 200 6500
+INFO 2023-10-06 02:21:45,678 autoreload 6084 7556 F:\projects_1\magazin_project\magazin_project\urls.py changed, reloading.
+INFO 2023-10-06 02:21:46,115 autoreload 4040 13456 Watching for file changes with StatReloader
+INFO 2023-10-06 02:22:08,005 autoreload 4040 13456 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:22:08,416 autoreload 2712 8840 Watching for file changes with StatReloader
+INFO 2023-10-06 02:22:41,321 autoreload 2712 8840 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:22:41,815 autoreload 1112 6848 Watching for file changes with StatReloader
+INFO 2023-10-06 02:23:23,736 autoreload 13792 7036 Watching for file changes with StatReloader
+INFO 2023-10-06 02:23:53,428 autoreload 7936 744 Watching for file changes with StatReloader
+ERROR 2023-10-06 02:23:59,023 log 7936 8580 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: admin_interface_theme
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\library.py", line 237, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\admin_interface\templatetags\admin_interface_tags.py", line 64, in get_admin_interface_theme
+    theme = Theme.objects.get_active()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\admin_interface\models.py", line 15, in get_active
+    objs_active_ls = list(objs_active_qs)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: admin_interface_theme
+ERROR 2023-10-06 02:23:59,034 basehttp 7936 8580 "GET /admin/ HTTP/1.1" 500 397220
+INFO 2023-10-06 02:24:26,673 autoreload 7936 744 F:\projects_1\magazin_project\users\migrations\0001_initial.py changed, reloading.
+INFO 2023-10-06 02:24:27,155 autoreload 3272 6976 Watching for file changes with StatReloader
+INFO 2023-10-06 02:25:02,037 autoreload 8580 8840 Watching for file changes with StatReloader
+ERROR 2023-10-06 02:25:07,110 log 8580 9420 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'admin_interface'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'admin_interface' is not a registered tag library. Must be one of:
+admin_interface_tags
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2023-10-06 02:25:07,119 basehttp 8580 9420 "GET /admin/ HTTP/1.1" 500 273068
+INFO 2023-10-06 02:25:21,346 autoreload 11560 4720 Watching for file changes with StatReloader
+ERROR 2023-10-06 02:25:23,529 log 11560 13852 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'admin_interface'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'admin_interface' is not a registered tag library. Must be one of:
+admin_interface_tags
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2023-10-06 02:25:23,535 basehttp 11560 13852 "GET /admin/ HTTP/1.1" 500 255997
+ERROR 2023-10-06 02:25:26,037 log 11560 13852 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'admin_interface'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\projects_1\magazin_project\venv\Lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'admin_interface' is not a registered tag library. Must be one of:
+admin_interface_tags
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2023-10-06 02:25:26,043 basehttp 11560 13852 "GET /admin/ HTTP/1.1" 500 255997
+INFO 2023-10-06 02:26:50,531 autoreload 11560 4720 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:34:55,642 autoreload 5728 12472 Watching for file changes with StatReloader
+INFO 2023-10-06 02:34:56,627 basehttp 5728 12460 "GET /admin/ HTTP/1.1" 200 18502
+INFO 2023-10-06 02:34:56,733 basehttp 5728 11096 "GET /static/admin_interface/css/admin-interface-fix.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 14785
+INFO 2023-10-06 02:34:56,736 basehttp 5728 2136 "GET /static/admin_interface/css/form-controls.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 2437
+INFO 2023-10-06 02:34:56,738 basehttp 5728 12460 "GET /static/admin_interface/css/admin-interface.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 17118
+INFO 2023-10-06 02:34:56,748 basehttp 5728 12460 "GET /static/admin_interface/css/language-chooser.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 1734
+INFO 2023-10-06 02:34:56,749 basehttp 5728 11096 "GET /static/admin_interface/css/rangefilter.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 1238
+INFO 2023-10-06 02:34:56,750 basehttp 5728 2136 "GET /static/admin_interface/css/list-filter-dropdown.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 691
+INFO 2023-10-06 02:34:56,752 basehttp 5728 7960 "GET /static/admin_interface/css/related-modal.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 2867
+INFO 2023-10-06 02:34:56,754 basehttp 5728 7808 "GET /static/admin_interface/css/streamfield.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 5651
+INFO 2023-10-06 02:34:56,757 basehttp 5728 8096 "GET /static/admin_interface/css/jquery.ui.tabs.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 5558
+INFO 2023-10-06 02:34:56,762 basehttp 5728 11096 "GET /static/admin_interface/css/ckeditor.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 2720
+INFO 2023-10-06 02:34:56,763 basehttp 5728 2136 "GET /static/admin_interface/css/sorl-thumbnail.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 1451
+INFO 2023-10-06 02:34:56,763 basehttp 5728 12460 "GET /static/admin_interface/css/modeltranslation.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 356
+INFO 2023-10-06 02:34:56,764 basehttp 5728 7960 "GET /static/admin_interface/css/tinymce.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 78
+INFO 2023-10-06 02:34:56,764 basehttp 5728 8096 "GET /static/admin_interface/css/import-export.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 189
+INFO 2023-10-06 02:34:56,765 basehttp 5728 7808 "GET /static/admin_interface/css/json-widget.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 993
+INFO 2023-10-06 02:34:56,769 basehttp 5728 11096 "GET /static/admin_interface/css/rtl.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 1016
+INFO 2023-10-06 02:34:56,771 basehttp 5728 2136 "GET /static/admin_interface/css/tabbed-changeform.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 1895
+INFO 2023-10-06 02:34:56,773 basehttp 5728 7808 "GET /static/admin_interface/magnific-popup/magnific-popup.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 6951
+INFO 2023-10-06 02:34:56,773 basehttp 5728 8096 "GET /static/admin_interface/foldable-apps/foldable-apps.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 1943
+INFO 2023-10-06 02:34:56,775 basehttp 5728 11096 "GET /static/admin_interface/foldable-apps/foldable-apps.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 1750
+INFO 2023-10-06 02:34:56,776 basehttp 5728 7808 "GET /static/admin_interface/related-modal/related-modal.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 6803
+INFO 2023-10-06 02:34:56,776 basehttp 5728 2136 "GET /static/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 60830
+INFO 2023-10-06 02:34:56,800 basehttp 5728 7960 "GET /static/admin/css/responsive_rtl.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 1785
+INFO 2023-10-06 02:34:56,814 basehttp 5728 12460 "GET /static/admin/css/responsive.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 18533
+INFO 2023-10-06 02:35:01,512 basehttp 5728 12460 "GET /admin/ HTTP/1.1" 200 18502
+INFO 2023-10-06 02:35:04,737 basehttp 5728 12460 "GET /admin/products/product/ HTTP/1.1" 200 30807
+INFO 2023-10-06 02:35:04,769 basehttp 5728 12460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:35:07,621 basehttp 5728 12460 "GET /admin/products/category/ HTTP/1.1" 200 22257
+INFO 2023-10-06 02:35:07,642 basehttp 5728 12460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:35:09,751 basehttp 5728 12460 "GET /admin/users/users/ HTTP/1.1" 200 21581
+INFO 2023-10-06 02:35:11,673 basehttp 5728 12460 "GET /admin/users/users/2/change/ HTTP/1.1" 200 35075
+INFO 2023-10-06 02:35:11,697 basehttp 5728 12460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:35:15,796 basehttp 5728 12460 "GET /admin/products/category/ HTTP/1.1" 200 22257
+INFO 2023-10-06 02:35:15,818 basehttp 5728 12460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:35:27,547 autoreload 5728 12472 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:35:28,104 autoreload 6964 6116 Watching for file changes with StatReloader
+INFO 2023-10-06 02:35:29,170 basehttp 6964 9000 "GET /admin/ HTTP/1.1" 200 18502
+INFO 2023-10-06 02:35:51,057 autoreload 6964 6116 F:\projects_1\magazin_project\magazin_project\settings.py changed, reloading.
+INFO 2023-10-06 02:35:51,495 autoreload 9096 4244 Watching for file changes with StatReloader
+INFO 2023-10-06 02:36:51,171 basehttp 9096 744 "GET /admin/users/users/ HTTP/1.1" 200 21581
+INFO 2023-10-06 02:36:51,204 basehttp 9096 744 "GET /static/admin_interface/css/admin-interface.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,204 basehttp 9096 8496 "GET /static/admin_interface/css/admin-interface-fix.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,214 basehttp 9096 1712 "GET /static/admin_interface/css/form-controls.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,215 basehttp 9096 14100 "GET /static/admin_interface/css/related-modal.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,216 basehttp 9096 7480 "GET /static/admin_interface/css/list-filter-dropdown.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,216 basehttp 9096 9752 "GET /static/admin_interface/css/language-chooser.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,216 basehttp 9096 744 "GET /static/admin_interface/css/rangefilter.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,217 basehttp 9096 8496 "GET /static/admin_interface/css/streamfield.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,221 basehttp 9096 1712 "GET /static/admin_interface/css/jquery.ui.tabs.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,221 basehttp 9096 14100 "GET /static/admin_interface/css/sorl-thumbnail.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,221 basehttp 9096 7480 "GET /static/admin_interface/css/modeltranslation.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,221 basehttp 9096 9752 "GET /static/admin_interface/css/ckeditor.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,221 basehttp 9096 8496 "GET /static/admin_interface/css/json-widget.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,221 basehttp 9096 744 "GET /static/admin_interface/css/tinymce.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,221 basehttp 9096 1712 "GET /static/admin_interface/css/import-export.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,231 basehttp 9096 8496 "GET /static/admin_interface/magnific-popup/magnific-popup.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,231 basehttp 9096 9752 "GET /static/admin_interface/foldable-apps/foldable-apps.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,231 basehttp 9096 7480 "GET /static/admin_interface/css/rtl.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,231 basehttp 9096 14100 "GET /static/admin_interface/css/tabbed-changeform.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,231 basehttp 9096 744 "GET /static/admin_interface/foldable-apps/foldable-apps.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,231 basehttp 9096 1712 "GET /static/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:51,231 basehttp 9096 9752 "GET /static/admin_interface/related-modal/related-modal.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:36:53,993 basehttp 9096 9752 "GET /admin/users/users/2/change/ HTTP/1.1" 200 35075
+INFO 2023-10-06 02:36:54,016 basehttp 9096 9752 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:37:02,694 basehttp 9096 9752 "GET /admin/users/users/ HTTP/1.1" 200 21581
+INFO 2023-10-06 02:38:16,472 autoreload 2936 3908 Watching for file changes with StatReloader
+INFO 2023-10-06 02:38:19,685 basehttp 2936 13000 "GET /admin/users/users/ HTTP/1.1" 200 21581
+INFO 2023-10-06 02:38:19,707 basehttp 2936 13000 "GET /static/admin_interface/css/admin-interface.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,710 basehttp 2936 10364 "GET /static/admin_interface/css/admin-interface-fix.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,719 basehttp 2936 13000 "GET /static/admin_interface/css/form-controls.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,720 basehttp 2936 7180 "GET /static/admin_interface/css/related-modal.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,722 basehttp 2936 7184 "GET /static/admin_interface/css/language-chooser.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,724 basehttp 2936 2424 "GET /static/admin_interface/css/rangefilter.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,724 basehttp 2936 10364 "GET /static/admin_interface/css/streamfield.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,724 basehttp 2936 6008 "GET /static/admin_interface/css/list-filter-dropdown.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,726 basehttp 2936 13000 "GET /static/admin_interface/css/jquery.ui.tabs.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,728 basehttp 2936 7180 "GET /static/admin_interface/css/modeltranslation.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,729 basehttp 2936 7184 "GET /static/admin_interface/css/sorl-thumbnail.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,730 basehttp 2936 2424 "GET /static/admin_interface/css/tinymce.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,731 basehttp 2936 10364 "GET /static/admin_interface/css/ckeditor.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,733 basehttp 2936 6008 "GET /static/admin_interface/css/json-widget.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,734 basehttp 2936 13000 "GET /static/admin_interface/css/import-export.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,736 basehttp 2936 7180 "GET /static/admin_interface/css/rtl.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,738 basehttp 2936 7184 "GET /static/admin_interface/css/tabbed-changeform.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,738 basehttp 2936 2424 "GET /static/admin_interface/foldable-apps/foldable-apps.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,739 basehttp 2936 6008 "GET /static/admin_interface/magnific-popup/magnific-popup.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,739 basehttp 2936 10364 "GET /static/admin_interface/foldable-apps/foldable-apps.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,740 basehttp 2936 13000 "GET /static/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:19,740 basehttp 2936 7180 "GET /static/admin_interface/related-modal/related-modal.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:38:21,779 basehttp 2936 7180 "GET /admin/products/category/ HTTP/1.1" 200 22257
+INFO 2023-10-06 02:38:21,800 basehttp 2936 7180 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:38:24,370 basehttp 2936 7180 "GET /admin/products/product/ HTTP/1.1" 200 30807
+INFO 2023-10-06 02:38:24,391 basehttp 2936 7180 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:38:26,857 basehttp 2936 7180 "GET /admin/users/users/ HTTP/1.1" 200 21581
+INFO 2023-10-06 02:38:30,264 basehttp 2936 7180 "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2023-10-06 02:38:30,275 basehttp 2936 7180 "GET / HTTP/1.1" 200 11187
+WARNING 2023-10-06 02:38:30,323 log 2936 7180 Not Found: /img/shop01.png
+WARNING 2023-10-06 02:38:30,324 log 2936 6008 Not Found: /img/shop02.png
+WARNING 2023-10-06 02:38:30,325 basehttp 2936 6008 "GET /img/shop02.png HTTP/1.1" 404 2583
+WARNING 2023-10-06 02:38:30,325 basehttp 2936 7180 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-06 02:38:30,327 log 2936 13000 Not Found: /img/shop03.png
+WARNING 2023-10-06 02:38:30,328 basehttp 2936 13000 "GET /img/shop03.png HTTP/1.1" 404 2583
+INFO 2023-10-06 02:38:31,937 basehttp 2936 13000 "GET /users/login/ HTTP/1.1" 200 8856
+INFO 2023-10-06 02:38:35,352 basehttp 2936 13000 "POST /users/login/ HTTP/1.1" 302 0
+INFO 2023-10-06 02:38:35,364 basehttp 2936 13000 "GET / HTTP/1.1" 200 11388
+WARNING 2023-10-06 02:38:35,399 log 2936 13000 Not Found: /img/shop01.png
+WARNING 2023-10-06 02:38:35,400 basehttp 2936 13000 "GET /img/shop01.png HTTP/1.1" 404 2583
+WARNING 2023-10-06 02:38:35,402 log 2936 6008 Not Found: /img/shop03.png
+WARNING 2023-10-06 02:38:35,403 basehttp 2936 6008 "GET /img/shop03.png HTTP/1.1" 404 2583
+WARNING 2023-10-06 02:38:35,405 log 2936 7180 Not Found: /img/shop02.png
+WARNING 2023-10-06 02:38:35,405 basehttp 2936 7180 "GET /img/shop02.png HTTP/1.1" 404 2583
+INFO 2023-10-06 02:38:37,244 basehttp 2936 7180 "GET /admin/ HTTP/1.1" 200 21642
+INFO 2023-10-06 02:38:46,132 basehttp 2936 7180 "GET /admin/admin_interface/theme/ HTTP/1.1" 200 23319
+INFO 2023-10-06 02:38:46,154 basehttp 2936 7180 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:38:47,983 basehttp 2936 7180 "GET /admin/admin_interface/theme/1/change/ HTTP/1.1" 200 71127
+INFO 2023-10-06 02:38:48,007 basehttp 2936 6008 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:38:48,050 basehttp 2936 7180 "GET /static/colorfield/jscolor/jscolor.js HTTP/1.1" 200 102106
+INFO 2023-10-06 02:38:48,051 basehttp 2936 13000 "GET /static/colorfield/colorfield.js HTTP/1.1" 200 408
+INFO 2023-10-06 02:39:38,150 basehttp 2936 13000 "POST /admin/admin_interface/theme/1/change/ HTTP/1.1" 302 0
+INFO 2023-10-06 02:39:38,168 basehttp 2936 13000 "GET /admin/admin_interface/theme/ HTTP/1.1" 200 23897
+INFO 2023-10-06 02:39:38,194 basehttp 2936 13000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:39:38,194 basehttp 2936 7180 "GET /static/admin_interface/collapsible-inlines/collapsible-inlines.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 200 2187
+INFO 2023-10-06 02:39:43,525 basehttp 2936 13000 "GET /admin/users/users/ HTTP/1.1" 200 24498
+INFO 2023-10-06 02:39:43,550 basehttp 2936 13000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:39:46,227 basehttp 2936 13000 "GET /admin/products/product/ HTTP/1.1" 200 32497
+INFO 2023-10-06 02:39:46,248 basehttp 2936 13000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:40:27,106 basehttp 2936 13000 "GET /admin/auth/ HTTP/1.1" 200 17858
+INFO 2023-10-06 02:40:27,135 basehttp 2936 13000 "GET /static/admin_interface/css/admin-interface.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,138 basehttp 2936 13000 "GET /static/admin_interface/css/admin-interface-fix.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,147 basehttp 2936 7180 "GET /static/admin_interface/css/form-controls.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,149 basehttp 2936 2424 "GET /static/admin_interface/css/rangefilter.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,149 basehttp 2936 10364 "GET /static/admin_interface/css/list-filter-dropdown.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,150 basehttp 2936 6008 "GET /static/admin_interface/css/language-chooser.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,150 basehttp 2936 13000 "GET /static/admin_interface/css/streamfield.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,151 basehttp 2936 7184 "GET /static/admin_interface/css/related-modal.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,154 basehttp 2936 7180 "GET /static/admin_interface/css/jquery.ui.tabs.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,155 basehttp 2936 2424 "GET /static/admin_interface/css/modeltranslation.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,158 basehttp 2936 6008 "GET /static/admin_interface/css/ckeditor.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,158 basehttp 2936 7184 "GET /static/admin_interface/css/json-widget.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,158 basehttp 2936 10364 "GET /static/admin_interface/css/sorl-thumbnail.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,160 basehttp 2936 13000 "GET /static/admin_interface/css/tinymce.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,160 basehttp 2936 7180 "GET /static/admin_interface/css/import-export.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,161 basehttp 2936 2424 "GET /static/admin_interface/css/rtl.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,163 basehttp 2936 6008 "GET /static/admin_interface/css/tabbed-changeform.css?v=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,164 basehttp 2936 7184 "GET /static/admin_interface/foldable-apps/foldable-apps.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,166 basehttp 2936 10364 "GET /static/admin_interface/magnific-popup/magnific-popup.css?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,166 basehttp 2936 13000 "GET /static/admin_interface/foldable-apps/foldable-apps.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,166 basehttp 2936 7180 "GET /static/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:27,166 basehttp 2936 2424 "GET /static/admin_interface/related-modal/related-modal.js?nocache=0d17ecc7e9bf7e96517e967fbbeb7a8b647d436399cf16008fb1d306 HTTP/1.1" 304 0
+INFO 2023-10-06 02:40:28,600 basehttp 2936 2424 "GET /admin/auth/group/ HTTP/1.1" 200 23093
+INFO 2023-10-06 02:40:28,619 basehttp 2936 2424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:40:30,985 basehttp 2936 2424 "GET /admin/products/category/ HTTP/1.1" 200 23947
+INFO 2023-10-06 02:40:31,007 basehttp 2936 2424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:40:34,250 basehttp 2936 2424 "GET /admin/products/product/ HTTP/1.1" 200 32497
+INFO 2023-10-06 02:40:34,270 basehttp 2936 2424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-06 02:40:39,373 basehttp 2936 2424 "GET /admin/ HTTP/1.1" 200 22299

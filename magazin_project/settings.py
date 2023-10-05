@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import json
+from django.contrib import admin
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -34,6 +36,8 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_interface',
+    'colorfield',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -76,6 +80,21 @@ TEMPLATES = [
 WSGI_APPLICATION = 'magazin_project.wsgi.application'
 
 
+ADMIN_INTERFACE_SETTINGS = {
+    'EXCLUDE_APPS': ['auth', 'groups', 'sites'],
+    'LIST_FILTER': ['BOOLEAN', 'DATE', 'DATETIME', 'TIME', 'IP_ADDRESS'],
+    'MENU': [
+        {'label': 'Основное', 'icon': 'icon-home', 'models': ['auth.user', 'auth.group']},
+        {'label': 'Продукты', 'icon': 'icon-shopping-cart', 'models': ['app_label.model_name']},
+        {'label': 'Категории', 'icon': 'icon-list', 'models': ['app_label.model_name']},
+        {'label': 'Пользователи', 'icon': 'icon-people', 'models': ['app_label.model_name']},
+
+    ],
+    'SEARCH_FIELDS': ['name', 'email'],  # Добавьте дополнительные поля для поиска.
+    'SHOW_VISITS_COUNTER': True,  # Показывать счетчик посещений на главной странице админки.
+    'SHOW_ABOUT_US': True,  # Показывать блок "О нас" на главной странице админки.
+}
+
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
@@ -104,7 +123,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+ADMIN_SITE_HEADER = 'Store - Admin'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
