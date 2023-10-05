@@ -11,6 +11,7 @@ class Product(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     creat_at = models.DateTimeField(auto_now_add=True)
     image = models.ImageField(upload_to='products', blank=True, null=True)
+    is_published = models.BooleanField(default=True)
 
     class Meta:
         verbose_name = 'product'
@@ -45,7 +46,6 @@ class Orders(models.Model):
     products = models.ForeignKey(to=Product, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=0)
     create_at = models.DateTimeField(auto_now_add=True)
-
     objects = BasketQuerySet.as_manager()
 
     def __str__(self):

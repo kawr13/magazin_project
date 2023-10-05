@@ -49,11 +49,11 @@
 						<li><a href="#"><i class="fa fa-map-marker"></i> 1734 Stonecoal Road</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-                        {% if user.is_superuser %}
+                        {% if user.is_superuser or user.is_staff %}
 						    <li><a href="{% url 'products:edit' %}"><i class="fa fa-dollar"></i> Редактирование товара</a></li>
                         {% endif %}
                         {% if user.is_authenticated %}
-                            {% if user.is_superuser %}
+                            {% if user.is_superuser or user.is_staff %}
                                 <li><a href="{% url 'admin:index' %}"><i class="fa fa-user-o"></i> My Account</a></li>
                             {% else %}
                                 <li><a href="{% url 'users:profile' %}"><i class="fa fa-user-o"></i> My Account</a></li>
